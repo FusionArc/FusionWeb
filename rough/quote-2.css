@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  background-color: #aaa9b3;
+  padding: 1px 10px 1px 10px;
+  margin: 0px 2px 0px 2px;
+}
+.quote {
+line-height: 0.2rem;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto auto auto auto);
+  margin: 2px;
+  background-color: whitesmoke;
+  border: 2px solid #00009c;
+  padding: 5px;
+  color: #000;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 2px 0px 2px;
+  padding: 0px 2px 0px 2px;
+}
+header #logo {
+  border: 3px solid
+  whitesmoke;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+header .heading {
+  font-family: "Sitka Heading", serif;
+  font-size: 3em;
+  font-weight: 400;
+  font-variant: small-caps;
+  margin: 0px 2px 0px 2px;
+  text-align: center;
+  line-height: 0.5rem;
+}
+header .sub-heading {
+  margin: 0px 2px 0px 2px;
+  font-family: "Sitka Heading", serif;
+  font-size: 2em;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+}
+#feature {
+ border: 8px solid aqua;
+  border-radius: 8px;
+  align-self: center;
+}
+.Quote {
+  margin: 0;
+  font-family: "Sitka Small", serif;
+  font-variant: small-caps;
+  font-size: 2em;
+  text-align: left;
+  font-weight: bold;
+  color: #000;
+}
+.main h2 {
+  margin: 0;
+  text-align: left;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.main p {
+  margin: 0;
+  padding: 3px;
+  border: 2px solid #00009c;
+  color: black;
+  justify-content: center;
+  font-family: Algreya, serif;
+}
+.main h3 {
+  font-family: "Georgia", sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  color: darkblue;
+}
+.main h4 {
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.wrapper {
+display: grid;
+grid-template-columns: 200px 200px;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.wrapper ul li {
+max-height: 200px;
+}
+
+.main ul {
+  display: grid;
+  border: 2px solid #00009c;
+  padding: 20px;
+  margin: 5px;
+  font-family: "Times", sans-serif;
+  font-size: 1em;
+}

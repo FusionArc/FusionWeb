@@ -1,0 +1,110 @@
+body {
+    background-color: darkslategray;
+    margin: 0;
+}
+
+
+/*header*/
+
+header {
+    background: linear-gradient(to bottom, rgba(11, 77, 11, 0.4), #00009c);
+    margin: 2px 2px;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    line-height: 1rem;
+    font-variant: small-caps;
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+}
+
+header h2 {
+    font-family: Times, serif;
+    line-height: 1.2em;
+    font-variant: small-caps;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    color: whitesmoke;
+}
+
+a.call-button {
+    color: whitesmoke;
+    font-family: Times, Serif;
+    font-size: 2em;
+    text-decoration: none;
+    font-variant: small-caps;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: green;
+}
+
+a.call-button:hover {
+    color: green;
+    background-color: whitesmoke;
+    border: 2px solid green;
+}
+
+
+/*END header*/
+
+
+/*--Navigation--*/
+
+nav {
+    border: none;
+}
+
+.nav-bar {
+    display: grid;
+    grid-gap: 2px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.top-nav a {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: "Lucinda", Times, Georgia, serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #99ffff;
+}
+
+.top-nav a:hover {
+    background: darkblue;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+    background: linear-gradient(to left,#ffddcc, #cadcad);
+}
+
+aside {
+    border-left: #00009c solid 0.1rem;
+    padding: 0.5rem;
+    grid-column-end: -1;
+    color: #00009c
+}
+
+footer {
+        background: linear-gradient(to top, rgba(11, 77, 11, 0.4), #00009c);
+        margin: 2px 2px;
+        padding: 2px 2px;
+        text-align: center;
+        color:antiquewhite;
+}
