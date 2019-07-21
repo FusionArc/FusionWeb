@@ -8,6 +8,8 @@
 !.eslintrc.json
 !.flowconfig
 firebase.js
+firebase.html
+firebase.*
 !.gqlconfig
 !.github
 .gitignore
